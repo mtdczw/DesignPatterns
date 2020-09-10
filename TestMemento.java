@@ -1,6 +1,8 @@
-// Memento Design Pattern Sample Code
-// Author: David CHEN
-// Date:   10, SEPTEMBER, 2020
+// Memento Design Pattern
+// Declaration: TestMemento Class
+// To create a UI based interactive operations like Save, Undo, Redo
+// To demonstrate the entire undo mechanism and access control between
+// Originator and Memento objects with help of Caretaker. 
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

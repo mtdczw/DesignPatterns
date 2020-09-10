@@ -1,4 +1,5 @@
 // Memento Design Pattern
+// Declaration: Memento Class
 // Used stores an internal state of Originator object at a point of time
 // Memento protects against any other access instead by Originator objects which can
 // store current state and restore to its previous state (undo mechanism)

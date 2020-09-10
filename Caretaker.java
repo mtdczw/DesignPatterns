@@ -1,4 +1,7 @@
-// Memento Design Pattern Tutorial
+// Memento Design Pattern
+// Declaration: Caretaker Class
+// Safekeeping the Memento objects in multiple and single instances.
+// CAN'T operate or examine the state of a Memento directly.
 
 import java.util.ArrayList;
 

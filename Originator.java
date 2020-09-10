@@ -1,4 +1,8 @@
 // Memento Design Pattern
+// Declaration: Originator Class
+// To create a Memento object containing a state of its current internal
+// To use the Memento to restore its internal state
+
 
 // Originator: Sets and Gets values from the currently targeted Memento.
 // Originator: Creates new Memento(s) and assigns current values to them.
