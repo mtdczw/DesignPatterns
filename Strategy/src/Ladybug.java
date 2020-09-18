@@ -1,7 +1,9 @@
-//
-//
-//
-//
+// Strategy Design Pattern
+// Ladybug class inherited from Animal
+
+
+// Ladybug: Initialized several properties of Animal class
+// Ladybug: Defined flying type and swimming type
 public class Ladybug extends Animal {
 
     public Ladybug() {

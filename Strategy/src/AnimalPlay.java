@@ -1,7 +1,9 @@
 // Strategy Design Pattern
-//
-//
-// To test the animal class for its fly interface
+// Declaration: AnimalPlay class
+// To create several objects inheritance of Animal base class
+
+
+// AnimalPlay: To test the animal class for its fly interface
 public class AnimalPlay {
 
     public static void main(String[] args){
@@ -16,13 +18,15 @@ public class AnimalPlay {
         System.out.println(aLadybug.getName() +": " + aLadybug.ableToFly());
         System.out.println();
 
-        // This allows dynamic changes for flyingType
+        // Dynamic changes for flyingType
         aHorse.setFlyingAbility(new HighFlying());
         System.out.println(aHorse.getName() +": " + aHorse.ableToFly());
         aEagle.setFlyingAbility(new UnableFlying());
         System.out.println(aEagle.getName() +": " + aEagle.ableToFly());
         aLadybug.setFlyingAbility(new HighFlying());
         System.out.println(aLadybug.getName() +": " + aLadybug.ableToFly());
+        aEagle.setFlyingAbility(new DiveFlying());
+        System.out.println(aEagle.getName() +": " + aEagle.ableToFly());
         System.out.println();
 
         //
@@ -32,7 +36,7 @@ public class AnimalPlay {
         System.out.println(aLadybug.getName() +": " + aLadybug.ableToSwim());
         System.out.println();
 
-        // This allows dynamic changes for swimmingType
+        // Dynamic changes for swimmingType
         aHorse.setSwimmingAbility(new UnableSwimming());
         System.out.println(aHorse.getName() +": " + aHorse.ableToSwim());
         aEagle.setSwimmingAbility(new LongSwimming());

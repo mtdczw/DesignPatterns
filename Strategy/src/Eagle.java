@@ -1,7 +1,9 @@
-//
-//
-//
-//
+// Strategy Design Pattern
+// Eagle class inherited from Animal
+
+
+// Eagle: Initialized several properties of Animal class
+// Eagle: Defined flying type and swimming type
 public class Eagle extends Animal {
 
     // The constructor initializes Eagle objects

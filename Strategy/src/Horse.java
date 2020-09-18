@@ -1,7 +1,9 @@
-//
-//
-//
-//
+// Strategy Design Pattern
+// Horse class inherited from Animal
+
+
+// Horse: Initialized several properties of Animal class
+// Horse: Defined flying type and swimming type
 public class Horse extends Animal {
 
     // The constructor initializes Horse objects
